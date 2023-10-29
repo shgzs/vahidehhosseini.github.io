@@ -2,7 +2,7 @@
 
 // When the page loads, display an alert message
 window.onload = function () {
-    alert("Welcome to my website!");
+//    alert("Welcome to my website!");
 };
 
 // When the user clicks on a button with the ID "btn-coaching",

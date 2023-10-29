@@ -1,80 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Dr. [Your Name] - Anesthesiologist & Coach</title>
-    <link rel="stylesheet" href="style.css">
+	<title>دکتر وحیده سادات حسینی - کوچ ومتخصص بیهوشی ومراقبتهای ویژه</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/fontawesome/all.css">
+	<style>
+		.logo {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-right: 10px;
+		}
+
+		.navbar {
+			direction: rtl;
+		}
+
+		.navbar-brand {
+			display: flex;
+			align-items: center;
+		}
+
+		.footer {
+			background-color: #f8f9fa;
+			padding: 20px;
+			text-align: left;
+		}
+
+		.footer a {
+			color: #000;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+
+		body {
+			direction: rtl;
+			text-align: right;
+			font-family: 'b nazanin';
+		}
+		/* div{
+			outline: 1px solid red;
+		} */
+	</style>
 </head>
+
 <body>
-    <header>
-        <h1>Dr. [Your Name]</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header>
+		<div class="container header">
+			<div class="row mt-3">
+				<div class="col push-left">
+					<a class=" navbar-brand" href="#">
+						<img src="./images/dr vahideh-sadat hosseini.jpg" alt="Logo" class="logo">
+					</a>
+				</div>
+				<div class="col-10">
+					<h1 class="mb-2">همراهی در مسیر آگاهی</h1>
+					<h3 class="mb-1 text-center">دکتر وحیده سادات حسینی</h3>
+					<h4 class="text-center">پزشک و متخصص بیهوشی ومراقبتهای ویژه</h4>
+					<h5 class="text-left">کوچ و متخصص NLP </h5>
+					<h6 class="text-left">همراه شما در مسیر موفقیت و آگاهی</h6>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container">
+				<div class="row">
 
-    <main>
-        <section id="hero">
-            <h2>Anesthesiologist & Coach</h2>
-            <p>Welcome to my website! I specialize in using NLP techniques to help patients manage pain and anxiety before, during, and after surgery. I also offer coaching services to help individuals achieve their personal and professional goals.</p>
-            <a href="#services" class="cta">Learn More</a>
-        </section>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#about">درباره من</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services">خدمات</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#publications">مقالات</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#blog">یادداشتهای روزانه</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#blog">معرفی کتاب</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#blog">اساتید و همکاران</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>[Insert brief bio here]</p>
-            <a href="#services" class="cta">Learn More</a>
-        </section>
+	<main class="container">
+		<section id="hero">
+			<h2>Anesthesiologist & Coach</h2>
+			<p>Welcome to my website! I specialize in using NLP techniques to help patients and provide coaching
+				services to help individuals achieve their goals.</p>
+			<button id="btn-coaching">Learn More</button>
+			<button id="btn-contact">Contact Me</button>
+		</section>
 
-        <section id="services">
-            <h2>Coaching Services</h2>
-            <p>[Insert details about coaching services here]</p>
-            <a href="#contact" class="cta">Get Started</a>
-        </section>
+		<!-- Rest of your content goes here -->
 
-        <section id="publications">
-            <h2>Publications</h2>
-            <p>[Insert links to publications here]</p>
-            <a href="#contact" class="cta">Contact Me</a>
-        </section>
+	</main>
 
-        <section id="blog">
-            <h2>Latest Blog Posts</h2>
-            <ul>
-                <li><a href="[Insert link to blog post 1]">[Insert title of blog post 1]</a></li>
-                <li><a href="[Insert link to blog post 2]">[Insert title of blog post 2]</a></li>
-                <li><a href="[Insert link to blog post 3]">[Insert title of blog post 3]</a></li>
-            </ul>
-            <a href="[Insert link to blog]" class="cta">Read More</a>
-        </section>
+	<footer class="footer">
+		<a href="https://www.instagram.com/drvahidehhosseini/"><i class="fab fa-instagram fa-lg"></i></a>
+		<a href="mailto:youremail@example.com"><i class="far fa-envelope fa-lg"></i></a>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="[Insert link to contact form]" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+		<!-- Add more social media links here -->
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+	</footer>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <input type="submit" value="Send Message">
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Dr. [Your Name]. All rights reserved.</p>
-        <p>Designed by [Your Name].</p>
-    </footer>
-
-    <script src="script.js"></script>
+	<script src="./js/jquery-3.5.1.slim.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/script.js"></script>
 
 </body>
+
 </html>
